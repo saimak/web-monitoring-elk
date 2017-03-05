@@ -9,3 +9,9 @@ Logs being monitored by ELK on Nginx are :
 `/var/log/niginx/*.log`
 `/var/log/syslog`
 `/var/log/auth.log`
+
+You might see follwing error while bringin ELK up:
+`max virtual memory areas has low memory`
+
+This can be fixed by, if using ubuntu:
+`sudo sysctl -w vm/max_map_count=262144`
