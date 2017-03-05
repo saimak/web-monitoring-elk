@@ -1,7 +1,7 @@
-# web-monitroring-elk
+# web-monitoring-elk
 This does monitoring of web application using ELK, all running in containers.
 
-Build containers for elk and web application using command `docker-compose up` . Images being used are : `sebp\elk` and `nginx-filebeat`
+Build containers for elk and web application using command `docker-compose up` . Images being used are : `sebp\elk` and `saimak/nginx-filebeat`
 
 This will bring ELK listening at ports: 5601, 9200, 5044 and Nginx at 8080
 
