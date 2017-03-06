@@ -11,7 +11,7 @@
  `/var/log/syslog`
  `/var/log/auth.log`
 
-ou might see follwing error while bringin ELK up:
+You might see follwing error while bringin ELK up:
  `max virtual memory areas has low memory`
  
  This can be fixed by, if using ubuntu:
