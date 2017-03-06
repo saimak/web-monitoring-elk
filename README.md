@@ -16,3 +16,9 @@ ou might see follwing error while bringin ELK up:
  
  This can be fixed by, if using ubuntu:
  `sudo sysctl -w vm/max_map_count=262144`
+ 
+ Tools I would use for conatiner deployment :
+- Terraform ( To automate Infrastructure creation )
+- AWS ECS  ( Container management srevice by AWS )
+- Jenkins ( Test image and deploy on ECS )
+- Docker Hub / AWS ECR ( As container Registery )
