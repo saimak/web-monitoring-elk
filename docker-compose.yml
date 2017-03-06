@@ -6,7 +6,7 @@ elk:
     - "5044:5044"
   net: "host"
 nginx-filebeat:
-  image: nginx-filebeat
+  image: saimak/elk-nginx
   ports:
     - "8080:80"
   net: "host"
